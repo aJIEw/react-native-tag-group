@@ -1,0 +1,5 @@
+assets/
+example/
+.eslintrc.json
+.gitignore
+yarn-error.log
