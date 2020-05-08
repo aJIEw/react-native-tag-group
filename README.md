@@ -4,19 +4,19 @@
 
 A simple Tag component that supports both single and multiple selection.
 
-<a href="https://raw.githubusercontent.com/aJIEw/react-native-tag-group/blob/master/assets/screenshot_ios.png" target="_blank"><img src='https://github.com/aJIEw/react-native-tag-group/blob/master/assets/screenshot_ios.png' width='30%'/></a><a href="https://raw.githubusercontent.com/aJIEw/react-native-tag-group/blob/master/assets/screenshot_android.png" target="_blank"><img src='https://github.com/aJIEw/react-native-tag-group/blob/master/assets/screenshot_android.png' width='30%'/></a>
+<a href="https://raw.githubusercontent.com/aJIEw/react-native-tag-group/master/assets/screenshot_ios.png" target="_blank"><img src='https://github.com/aJIEw/react-native-tag-group/blob/master/assets/screenshot_ios.png' width='30%'/></a><a href="https://raw.githubusercontent.com/aJIEw/react-native-tag-group/master/assets/screenshot_android.png" target="_blank"><img src='https://github.com/aJIEw/react-native-tag-group/blob/master/assets/screenshot_android.png' width='30%'/></a>
 
 ## Get Started
 
 ### Installation
 
 ```sh
-$ npm i react-native-tag-group --save
+npm i react-native-tag-group --save
 ```
 
 ### TagGroup Usage
 
-```react
+```js
 import TagGroup from 'react-native-tag-group';
 
 // ...
@@ -63,7 +63,7 @@ Get the index array of the selected Tag(s), return -1 if no Tag is selected.
 
 `Tag` can also be used as a simple button, for example:
 
-```react
+```js
 import {Tag} from 'react-native-tag-group';
 
 // ...
