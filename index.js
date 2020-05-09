@@ -5,4 +5,7 @@
  * @Last Modified by: aJIEw
  * @Last Modified time: 2020-05-09 22:54:36
  */
-export * from './src/TagGroup';
+import TagGroup, { Tag } from './src/TagGroup';
+
+export default TagGroup;
+export { Tag };
